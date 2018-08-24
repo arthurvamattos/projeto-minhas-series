@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabela</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+    <style>
+        *{font-family: 'Roboto', sans-serif;}
+        .tabela{
+            border: 1px #000 solid;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 5pxpx;
+        }
+        .tabela th, .tabela td{
+            border: 1px #000000 solid;
+            padding: 10px;
+        }
+        .tabela th{
+            background-color: #6495ed;
+            color: #ffffff;
+        }
+        .tabela td{
+            text-align: center;
+        }
+        .tabela td:nth-child(2){
+            text-align: left;
+        }
+        .tabela tr:nth-child(even){
+            background-color: #f0f0f0;
+        }
+        .tabela tr:hover{
+            background-color: #e4e4e4;
+        }
+    </style>
+</head>
+<body>
+    <table class="tabela">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sabão em pó</td>
+            <td>R$ 6,00</td>
+        </tr>
+        <tr>
+                <td>1</td>
+                <td>Sabão em barra</td>
+                <td>R$ 6,00</td>
+            </tr>
+            <tr>
+                    <td>1</td>
+                    <td>Sabão líquido</td>
+                    <td>R$ 6,00</td>
+                </tr>
+    </table>
+</body>
+</html> 
