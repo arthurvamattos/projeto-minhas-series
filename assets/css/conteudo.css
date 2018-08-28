@@ -46,4 +46,49 @@ h1{
     font-size: 20px;
     color: #A9A4A4;
     padding: 10px;
+    display: block;
+}
+
+.texto-formulario, .caixa-texto, .botao, .caixa-texto-grande{
+    font-size: 18px;
+    color: #383838;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin: 5px;
+}
+
+.botao{
+    margin: 5px 0px 5px 0px;
+    background-color: #C0392B;
+    color:white;
+    
+}
+
+.box-contato{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.box-2{
+    width: 600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-texto-grande{
+    width: 100%;
+}
+
+.caixa-texto, .caixa-texto-grande{
+    border-bottom: #C0392B 2px solid;
+}
+
+.caixa-texto:focus, .caixa-texto-grande:focus{
+    border-bottom: rgb(37, 37, 37) 2px solid;
 }
