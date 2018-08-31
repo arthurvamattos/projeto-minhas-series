@@ -1,0 +1,72 @@
+*{margin: 0; padding: 0;}
+
+.pagina-serie-titulo{
+    color: #c0392B;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 20px;   
+    padding: 0;
+    font-size: 35px;
+}
+
+.pagina-serie-genero{
+    color: #a9a4a4;
+    margin: 15px 0;
+}
+
+.pagina-serie-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.pagina-serie-capa{
+    border-radius: 5px;
+}
+
+/* Poderia ser tbm .pagina-serie-info:nth-child(2) para acessar o segundo filho da classe principal */
+.pagina-serie-texto{ 
+    padding: 0 30px;
+    line-height: 1.5;
+    width: 65%;
+}
+
+.btn-trailer{
+    color: #000;
+    text-decoration: none;
+    background-color: #f1c40f;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 200px;
+}
+
+.btn-trailer:hover{
+    background-color:rgba(241, 191, 15, 0.616);
+}
+
+.pagina-serie-aside{
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+.pagina-serie-avaliacao h2, .pagina-serie-compartilhe h2{
+    font-size: 16px;
+    text-align: center;
+    padding:10px;
+}
+
+.pagina-serie-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px, 0;
+}
+
+.pagina-serie-avaliacao-perc{
+    color: #27ae60;
+    text-align: center;
+    font-size: 30px;
+}
